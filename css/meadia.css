@@ -1,0 +1,341 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+@media (max-width:600px) {
+    body{
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+    .up-nav{
+       width: 86%;
+    }
+    .nav-hidden{
+        width: 86%;   
+    }
+
+    up-nav .son-nav{
+        display: grid;
+        grid-template-columns: 60% 25% 10%;
+    }
+    .up-nav .son-nav .button-nav button{
+        visibility: visible;
+       /* float: right;*/
+   }
+    .up-nav .son-nav .logo-nav img{
+        /*float: right;*/
+        margin-left: 70%;
+    }
+    .up-nav .son-nav .details-nav{
+        visibility: hidden;
+    }
+   
+    /*****mackground**/
+    
+    .up-background{
+        display: none;
+    }
+    .up-background1{
+        display: block;
+    }
+
+    .up-background1 .son-background{
+        height: 70vh;
+    }
+    .up-background1 .son-background .img-back img{
+        height: 70vh;
+    }
+    
+    /*******************************/
+    .up-our-products .products p{
+        font-size: larger;
+    }
+    .up-our-products .son-our-products .items{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .up-our-products .son-our-products .items img{
+        width: 50%;
+        height: 25vh;
+      }
+      .up-our-products .son-our-products button{
+        height: 30px;
+        width: 80px;
+        font-size: larger;
+        margin-left: 40%;
+    }
+    .up-our-products .son-our-products button a{    
+        font-size: large;
+        
+    
+    }
+    .up-ourMssage .son-ourMssage{
+        width: 100%;
+    }
+    .up-footer .son-footer{
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto;
+    }  
+    .up-footer .son-footer .contact h2{
+        font-size: x-large;
+    }
+    /*******************************************************************************************************
+    /*******************************************************************************************************
+    ***************************************location*********************************************************
+    /*******************************************************************************************************
+    /*******************************************************************************************************/
+    .main-adress .son-main-adress{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .main-adress .son-main-adress h6{
+        display: inline;
+    }
+    .main-adress-two .son-main-adress{
+    display: grid;
+    grid-template-columns: auto;
+    }
+    .main-adress-two .son-main-adress h6{
+        display: inline;
+    }
+    /*******************************************************************************************
+    /*******************************************************************************************
+    /*******************************************************************************************
+    /**********************************ourteam**************************************************
+    /*******************************************************************************************
+    /*******************************************************************************************
+    /******************************************************************************************/
+    .up-our-team .son-our-team .items{
+        display: grid;
+        grid-template-columns: auto;
+        margin-bottom: 5px;
+    }
+    .up-our-team .son-our-team .items .image img{
+        width: 50%;
+        height: 25vh;
+    }
+     /************************************************************************************
+    /************************************************************************************
+    /************************************************************************************
+    /************************************************gallary*****************************
+    /************************************************************************************
+    /***********************************************************************************/
+    .up-gallary .son-gallary .gallary{
+        display: grid;
+        grid-template-columns: auto;
+        
+    }
+    
+/************************************************************************************
+/************************************************************************************
+/************************************************************************************
+/************************************************products*****************************
+/************************************************************************************
+/***********************************************************************************/
+.main-pro .son-pro{
+    display: grid;
+    grid-template-columns: auto; 
+    }
+    .main-pro .son-pro .pro .items {
+       width: 100%;
+        display: inline-block;
+    }
+    .main-pro .son-pro .pro .items .image img{
+        width: 45%;
+    }
+
+    
+
+}
+
+/************/
+@media (max-width:750px) {
+    .up-background{
+        display: none;
+    }
+    .up-background1{
+        display: block;
+    }
+    
+}
+@media (min-width: 601px) and (max-width: 900px) {
+    
+    .up-nav .son-nav{
+        display: grid;
+        grid-template-columns: 50% 0% 10%;
+    }
+    .up-nav .son-nav .button-nav button{
+        visibility: visible;
+        float: right;
+    }
+    .up-nav .son-nav .logo-nav img{
+        float: right;
+        
+    }
+    .up-nav .son-nav .details-nav{
+        visibility: hidden;
+    }
+   
+    /*****mackground**/
+    .up-background .son-background{
+        height: 75vh;
+    }
+    .up-background .son-background .img-back img{
+        height: 75vh;
+    }
+    .up-background .son-background .aboat-back{
+        top: 60%;
+    }
+    .up-background .son-background .aboat-back h1{
+        font-size: xx-large;
+    }
+    .up-background .son-background .aboat-back .line1{
+        width: 200px;
+    }
+    .up-background .son-background .aboat-back .line1 span{
+        width: 40%;
+    }
+    .up-background .son-background .aboat-back .line2{
+        width: 200px;
+    }  
+    .up-our-products .products p{
+        font-size: x-large;
+    }
+    .up-our-products .son-our-products .items{
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    .up-our-products .son-our-products .items img{
+        width: 60%;
+        height: 30vh;
+      }
+      .up-our-products .son-our-products button{
+        height: 30px;
+        width: 80px;
+        font-size: larger;
+        margin-left: 40%;
+    }
+    .up-our-products .son-our-products button a{    
+        font-size: large;
+        
+    
+    }
+    .up-ourMssage .son-ourMssage{
+        width: 100%;
+    }
+    .up-footer .son-footer{
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto;
+    }  
+    .up-footer .son-footer .contact h2{
+        font-size: x-large;
+    }
+    /*******************************************************************************************************
+    /*******************************************************************************************************
+    ***************************************location*********************************************************
+    /*******************************************************************************************************
+    /*******************************************************************************************************/
+    .main-adress .son-main-adress{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .main-adress .son-main-adress h6{
+        display: inline;
+    }
+    .main-adress-two .son-main-adress{
+    display: grid;
+    grid-template-columns: auto;
+    }
+    .main-adress-two .son-main-adress h6{
+        display: inline;
+    }
+
+    /*******************************************************************************************
+    /*******************************************************************************************
+    /*******************************************************************************************
+    /**********************************ourteam**************************************************
+    /*******************************************************************************************
+    /*******************************************************************************************
+    /******************************************************************************************/
+    .up-our-team .son-our-team .items{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        margin-bottom: 5px;
+    }
+    .up-our-team .son-our-team .items .image img{
+        width: 60%;
+        height: 30vh;
+    }
+       /************************************************************************************
+    /************************************************************************************
+    /************************************************************************************
+    /************************************************gallary*****************************
+    /************************************************************************************
+    /***********************************************************************************/
+    .up-gallary .son-gallary .gallary{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        
+    }
+    /************************************************************************************
+/************************************************************************************
+/************************************************************************************
+/************************************************products*****************************
+/************************************************************************************
+/***********************************************************************************/
+    .main-pro .son-pro .menu{
+        padding: 30px;
+    }
+    .main-pro .son-pro .menu ul li{
+        margin: 15px;
+    }
+
+    .main-pro .son-pro .pro .items {
+       margin-left: 50px;
+       width: calc(100%/2.5);
+      display: inline-block;
+    }
+    .main-pro .son-pro .pro .items .image img{
+        width: 80%;
+    }
+
+}
+
+
+
+
+
+
+
+
+@media(max-width:1150px) {
+   
+    .up-nav .son-nav{
+        display: grid;
+        grid-template-columns: 60% 25% 10%;
+    }
+    .up-nav .son-nav .button-nav button{
+       
+       /*********/
+        float: right;
+   }
+    .up-nav .son-nav .logo-nav img{
+        float: right;
+        margin-left: 70%;
+    }
+    .up-nav .son-nav .details-nav{
+        visibility: hidden;
+    }
+
+
+
+    /***********************************/
+    
+     
+  
+}
